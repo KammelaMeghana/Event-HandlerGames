@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vh;
+  background-color: rgba(51, 51, 230, 0.856);
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+#myBox {
+  /* border: 2px solid black; */
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: rgb(78, 224, 78);
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
